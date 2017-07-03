@@ -21,7 +21,7 @@ public class Main {
         System.out.println(r);
 
         OperationsWithArray operationsWithArray = new OperationsWithArray();
-        int[] myTestArray = {4, 5,3,6,7,4,3,2,6,7,6,3,-3,-4,-6,3};
+        int[] myTestArray = {4, 5,3,6,7,4,3,2,6,7,6,3,3};
         int maxElement = operationsWithArray.findMaxElementInArray(myTestArray);
         System.out.println("Max Element");
         System.out.println(maxElement);
@@ -30,8 +30,8 @@ public class Main {
         System.out.println("Min Element");
         System.out.println(minElement);
 
-
+        System.out.println ("Binary Search");
+        System.out.println(Binary.number(2, Binary.arr, 0, 7));
     }
-
 
 }
