@@ -42,6 +42,7 @@ public class Main {
         System.out.println(yellowCircle.rad);
         System.out.println(yellowCircle.getSquare(yellowCircle.rad));
         System.out.println(greenCircle.getSquare(greenCircle.rad));
+        System.out.println(greenCircle.getSquare(6, 5));
     }
 
 }
