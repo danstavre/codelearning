@@ -32,6 +32,16 @@ public class Main {
 
         System.out.println ("Binary Search");
         System.out.println(Binary.number(2, Binary.arr, 0, 7));
+
+        GreenCircle greenCircle = new GreenCircle();
+        YellowCircle yellowCircle = new YellowCircle();
+
+        System.out.println(greenCircle.getColor());
+        System.out.println(greenCircle.rad);
+        System.out.println(yellowCircle.getColor());
+        System.out.println(yellowCircle.rad);
+        System.out.println(yellowCircle.getSquare(yellowCircle.rad));
+        System.out.println(greenCircle.getSquare(greenCircle.rad));
     }
 
 }
