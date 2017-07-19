@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
@@ -43,6 +44,15 @@ public class Main {
         System.out.println(yellowCircle.getSquare(yellowCircle.rad));
         System.out.println(greenCircle.getSquare(greenCircle.rad));
         System.out.println(greenCircle.getSquare(6, 5));
+        // ArrayList
+        CatsList catsName= new CatsList();
+        for (String name : catsName.cats) {
+            System.out.println(name);
+        }
+        catsName.setDogs();
+        for (String dogsName : catsName.dogs){
+            System.out.println(dogsName);
+        }
     }
 
 }
