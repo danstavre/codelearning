@@ -1,10 +1,10 @@
 import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
         System.out.println("Dana");
-
         Operations classInstance = new Operations();
         int a = classInstance.sum(15,52);
         System.out.println(a);
@@ -14,7 +14,7 @@ public class Main {
         System.out.println(c);
         int d = classInstance.modulus(5,4);
         System.out.println(d);
-        float s = classInstance.division(10,4);
+        double s = classInstance.division(10,4);
         System.out.println(s);
         int t = classInstance.increment(20);
         System.out.println(t);
@@ -48,6 +48,7 @@ public class Main {
         CatsList catsName= new CatsList();
         for (String name : catsName.cats) {
             System.out.println(name);
+
         }
         catsName.setDogs();
         for (String dogsName : catsName.dogs){

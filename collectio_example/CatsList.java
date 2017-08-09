@@ -3,7 +3,7 @@ import java.util.LinkedList;
 
 public class CatsList {
     public ArrayList<String> cats = new ArrayList<String>();
-    public CatsList()
+    public void catsName()
     {
         cats.add(0, "Vasia");
         cats.add(1, "Petia");
