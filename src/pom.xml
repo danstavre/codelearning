@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>codelearning</groupId>
+    <artifactId>main</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>main-code</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jbehave</groupId>
+            <artifactId>jbehave-core</artifactId>
+            <version>3.9.3</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <outputDirectory>target</outputDirectory>
+        <finalName>trololo</finalName>
+        <sourceDirectory>main</sourceDirectory>
+        <resources>
+            <resource>
+                <directory>${basedir}/src/main</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                </includes>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <version>2.4</version>
+            </plugin>
+           <!-- <plugin>
+                <groupId>org.jbehave</groupId>
+                <artifactId>jbehave-maven-plugin</artifactId>
+                <version>3.9.3</version>
+                <executions>
+                <execution>
+                    <id>run-stories-as-embeddables</id>
+                    <phase>integration-test</phase>
+                    <configuration>
+                        <scope>test</scope>
+                        <includes>
+                            <include>**/*Test.java</include>
+                        </includes>
+                        <ignoreFailureInStories>true</ignoreFailureInStories>
+                        <ignoreFailureInView>false</ignoreFailureInView>
+                        <systemProperties>
+                            <property>
+                                <name>java.awt.headless</name>
+                                <value>true</value>
+                            </property>
+                        </systemProperties>
+                    </configuration>
+                    <goals>
+                        <goal>run-stories-as-embeddables</goal>
+                    </goals>
+                </execution>
+                </executions>
+            </plugin>-->
+        </plugins>
+    </build>
+</project>
