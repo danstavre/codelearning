@@ -1,11 +1,11 @@
-package main;
+package main.java;
 
-import main.absract_class.GreenCircle;
-import main.absract_class.YellowCircle;
-import main.collection_example.CatsList;
-import main.math_operations.Binary;
-import main.math_operations.Operations;
-import main.math_operations.OperationsWithArray;
+import main.java.absract_class.GreenCircle;
+import main.java.absract_class.YellowCircle;
+import main.java.collection_example.CatsList;
+import main.java.math_operations.Binary;
+import main.java.math_operations.Operations;
+import main.java.math_operations.OperationsWithArray;
 
 public class Main {
 

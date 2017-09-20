@@ -1,4 +1,4 @@
-package main.math_operations;
+package main.java.math_operations;
 
 public class OperationsWithArray {
 

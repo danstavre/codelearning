@@ -1,4 +1,4 @@
-import main.math_operations.Operations;
+import main.java.math_operations.Operations;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package main.absract_class;
+package main.java.absract_class;
 
 public class YellowCircle extends Class1 {
     public final String color= "yellow";

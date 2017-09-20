@@ -1,4 +1,4 @@
-package main.absract_class;
+package main.java.absract_class;
 
 abstract class Class1 {
     private final double PI = Math.PI;
