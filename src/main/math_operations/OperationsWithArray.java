@@ -1,3 +1,5 @@
+package main.math_operations;
+
 public class OperationsWithArray {
 
     public int findMaxElementInArray(int[] testData) {
@@ -13,15 +15,15 @@ public class OperationsWithArray {
     }
 
         public int findMinElementInArray (int[] testData) {
-        int MinElement = testData[0];
+        int minElement = testData[0];
         for (int IndexInArray = 1; IndexInArray<testData.length; IndexInArray++) {
              int currentElementForIndex = testData[IndexInArray];
-             if (MinElement > currentElementForIndex) {
-                 MinElement = currentElementForIndex;
+             if (minElement > currentElementForIndex) {
+                 minElement = currentElementForIndex;
              }
         }
 
-            return MinElement;
+            return minElement;
         }
 
 }

@@ -1,3 +1,4 @@
+import main.math_operations.Operations;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -8,38 +9,38 @@ public class OperationsTest {
     Operations operations = new Operations();
 
     @Test
-    public void sum() throws Exception {
+    public void sum() {
         Assert.assertEquals(operations.sum(5,10), 15);
     }
 
     @Test
-    public void substraction() throws Exception {
+    public void substraction() {
         Assert.assertEquals(operations.substraction(4, 2), 2);
     }
 
     @Test
-    public void multiply() throws Exception {
+    public void multiply() {
         Assert.assertEquals(operations.multiply(2, 6), 12);
     }
 
     @Test
-    public void modulus() throws Exception {
+    public void modulus() {
         Assert.assertEquals(operations.modulus(5, 4), 1);
     }
 
     @Test
-    public void division() throws Exception {
+    public void division() {
         Assert.assertEquals(operations.division(12, 6), 2, 0.01);
     }
 
     @Test
-    public void increment() throws Exception {
+    public void increment() {
         Assert.assertEquals(operations.increment(11), 12);
     }
 
     @Test
-    public void equality() throws Exception {
-        Assert.assertEquals(operations.equality(6, 6), true);
+    public void equality() {
+        Assert.assertTrue(operations.equality(6, 6));
     }
 
 }

@@ -1,3 +1,5 @@
+package main.math_operations;
+
 public class Binary {
     public static int[] arr = {0, 1, 2, 55, 67, 102, 33, 34};
 

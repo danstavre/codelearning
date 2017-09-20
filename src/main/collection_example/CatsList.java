@@ -1,3 +1,5 @@
+package main.collection_example;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 

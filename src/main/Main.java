@@ -1,4 +1,11 @@
-import java.util.ArrayList;
+package main;
+
+import main.absract_class.GreenCircle;
+import main.absract_class.YellowCircle;
+import main.collection_example.CatsList;
+import main.math_operations.Binary;
+import main.math_operations.Operations;
+import main.math_operations.OperationsWithArray;
 
 public class Main {
 

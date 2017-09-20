@@ -1,3 +1,5 @@
+package main.math_operations;
+
 public class Operations {
     public int sum(int first, int second) {
         return first + second;
