@@ -14,12 +14,12 @@ public class BinaryTest {
     }
 
     @When("enter a $searchedValue, $sortedArray, $beginIndex, $endIndex")
-    public void theStockIsTradedAt(int searchValue, int[] arr, int begin, int end) {
+    public void invokeSearch(int searchValue, int[] arr, int begin, int end) {
         searchresult = binary.number(searchValue, arr, begin, end);
     }
 
     @Then("I get value's index of array")
-    public void theAlertStatusShouldBe(int expectedResult) {
+    public void assertResult(int expectedResult) {
         //ensureThat(searchresult, equalTo(expectedResult));
     }
 
